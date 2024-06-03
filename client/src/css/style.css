@@ -55,6 +55,10 @@ h1 {
   align-items: center;
   height: calc(100vh - var(--navbar-height));
 }
+.CodeMirror {
+  font-family: Ubuntu Mono, Nunito, Monospace, sans-serif;
+  height: fit-content;
+}
 
 #buttonInstall.hidden {
   display: none;
